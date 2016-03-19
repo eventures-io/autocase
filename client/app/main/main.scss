@@ -34,9 +34,22 @@
 }
 
 .detail {
+  background-color: #e8e8e8;
+  border-radius: 7px;
+  min-height: 400px;
+  padding: 20px;
+  font-size: 20px;
+
   h5 {
-    display: inline-block;
-    background-color: #ededed;
+    display: inline;
+    font-size: 20px;
+  }
+
+  span {
+    min-width: 200px;
+    margin: 5px;
   }
 
 }
+
+

@@ -4,18 +4,22 @@ var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 var DocumentSchema = new Schema({
-  Title: String,
-  Initials: String,
+
   LastName:String,
   FirstName:String,
   DateOfBirth: Date,
   NINumber: String,
   Address:String,
   Postcode:String,
+  City:String,
+  Country: String,
   PhoneNumber:String,
+  Salary: String,
+  Sex: String,
+  NrOfChildren: Number,
   TypeOfCase: String,
-  MonthlyIncome: String,
-  ChildBenefit: String
+  Description: String,
+  ExtraInfo: String
 
 });
 
