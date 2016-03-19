@@ -9,7 +9,7 @@ angular.module('autocaseApp', [
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     $urlRouterProvider
-      .otherwise('/');
+      .otherwise('/documents');
 
     $locationProvider.html5Mode(true);
     $httpProvider.interceptors.push('authInterceptor');
